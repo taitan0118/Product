@@ -1,0 +1,16 @@
+#myBtn {
+    display: none; /* Ẩn nút khi trang được tải */
+    position: fixed; /* Đặt vị trí cố định */
+    bottom: 40px; /* Vị trí từ dưới lên */
+    right: 30px; /* Vị trí từ phải qua */
+    z-index: 99; /* Đảm bảo nút nằm trên các phần tử khác */
+    border: solid 1px rgb(140, 55, 83); /* Không viền */
+    outline: none; /* Không đường viền khi focus */
+    background-color: rgb(255, 255, 255); /* Màu nền */
+    color: rgb(140, 55, 83); /* Màu chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    width: 40px;
+    height: 40px; /* Đệm */
+    border-radius: 5px; /* Bo góc */
+  }
+  
